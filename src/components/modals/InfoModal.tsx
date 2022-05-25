@@ -13,7 +13,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <strong>Saudações rubro-negras!</strong>
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300 mb-2">
-        Esse é um jogo de adivinhação onde você deve acertar o nome de um jogador que já jogou no Flamengo na história - pode ser um ídolo ou um perna de pau.
+        Esse é um jogo de adivinhação onde você deve acertar o nome de um
+        jogador que já jogou no Flamengo na história - pode ser um ídolo ou um
+        perna de pau.
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Adivinhe o jogador em 6 tentativas. Após cada palpite, a cor das peças
@@ -74,10 +76,22 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         que todos conhecemos e amamos -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
+          target={'_blank'}
           className="underline font-bold"
         >
           confira o código aqui
         </a>{' '}
+      </p>
+      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+        Adaptado por{' '}
+        <a
+          className="font-bold underline"
+          href="https://github.com/vhnogueira/"
+          target={'_blank'}
+        >
+          Victor Nogueira
+        </a>
+        .
       </p>
     </BaseModal>
   )

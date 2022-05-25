@@ -1,4 +1,4 @@
-# MengoWordle
+# Mengo Wordle
 
 ## _The game for Flamengo supporters inspired on Wordle_
 
